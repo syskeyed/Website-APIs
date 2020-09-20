@@ -1,6 +1,6 @@
 import requests
 
-json = {"title":"pog","paste":"lmao"}
+json = {"title":"Example Title","paste":"Paste Content"}
 r = requests.put('https://api.throwbin.io/v1/store', json=json)
 
 
