@@ -1,7 +1,7 @@
 import requests
 import urllib.parse
 
-query = 'https://github.com/syskeyed'
+query = 'https://github.com/syskeyed' # your url here
 urllib.parse.quote(query)
 
 json = {"long_url":f"{query}"}
